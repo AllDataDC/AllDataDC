@@ -17,7 +17,7 @@
   <img width="1215" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=alldatacenter&repo=alldata" />
 </a>
 
-## [体验版地址](http://43.138.157.47/dashboard) ｜ 账密 poc/123456
+## [体验版地址](http://43.138.157.47/dashboard) ｜ 账密 dev/123456
 
 
 ## 体验版
@@ -368,6 +368,196 @@
 > curl http://localhost:8013
 >
 > 用户名：admin 密码：123456
+
+## Presto POC调研
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/225311825-e066bf16-42ea-4995-9547-f76bdb5495b2.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/225311708-9f9b0227-8bd6-4e72-b290-1625b9bfba6e.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/225311709-9811642b-7c41-4c41-807e-eb517ebcbc5f.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/225311725-e348506b-840e-4ed3-94a5-c299c774d7f5.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/225311739-17f2aa9e-b72e-4076-8d5f-39c54122279b.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/225311752-f6423871-943e-475c-a300-d5da3504a25b.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/225311784-fbb18595-b0b0-469a-90c3-1474a5833d49.png">
+<br/>
+
+> 1. cd presto && mvn clean install -DskipTests=TRUE
+> 2. cd presto-server/target/presto-server-0.280-SNAPSHOT/
+> 3. tar -zxvf presto-server-0.280-SNAPSHOT.tar.gz
+> 4. cd presto-server-0.280-SNAPSHOT/
+> 5. client端访问：presto-cli/target
+> 6. java -jar presto-cli-0.280-SNAPSHOT-executable.jar --server=localhost:8080 默认端口为8080
+> 7. 测试SQL：SELECT * FROM system.runtime.nodes;
+> 8. 网页访问：http://localhost:8080
+
+## Griffin POC调研
+> 安装apache-maven-3.6.3
+> 
+> cd griffin && mvn clean package -DskipTests=TRUE
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/224027349-f9298f12-4ab5-4521-ab16-c81db8032576.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/224027365-417948b6-a948-43bb-9cba-d50456818dbf.png">
+<br/>
+
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171132004-542b699c-2878-4648-a79e-f118f28a0ed2.png">
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171131705-86a2c0bd-cd9d-4a66-b209-5c41d1b18e56.png">
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171132036-613e1271-d122-47dc-af7c-a3ee2a203a2e.png">
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171132186-261b742a-dc88-4739-8327-08b503fce8d8.png">
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171132633-193bbba4-58d6-4b38-8e9e-4674cdfa7cdd.png">
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171132684-37ebcec6-05dd-45d6-83cd-d4f18416b755.png"> 
+<br/>
+
+<br/>
+
+### Livy访问查看JOB
+
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171131636-4cb6d93b-c994-4dfa-bfee-48d2a04c4963.png">  
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171133364-8e4a8e84-c9f9-456c-9f33-c90b90cf54e4.png"> 
+<br/>
+
+## Calcite POC调研
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/223409318-f0154e9f-d247-4ecb-ab57-b6ea5bfe2881.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/223409331-044d0013-17fe-424f-9a47-dcb5b7d3267c.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/223409339-3d5205da-2a3c-46d0-a327-5f163ca5e079.png">
+<br/>
+
+### Calcite本地安装部署
+
+> 1. 配置Gradle,在USER_HOME/.gradle/下创建init.gradle文件
+>
+> 2. init.gradle文件
+```markdown
+allprojects{
+    repositories {
+        def ALIYUN_REPOSITORY_URL = 'http://maven.aliyun.com/nexus/content/groups/public'
+        def ALIYUN_JCENTER_URL = 'http://maven.aliyun.com/nexus/content/repositories/jcenter'
+        def GRADLE_LOCAL_RELEASE_URL = 'https://repo.gradle.org/gradle/libs-releases-local'
+        def ALIYUN_SPRING_RELEASE_URL = 'https://maven.aliyun.com/repository/spring-plugin'
+
+        all { ArtifactRepository repo ->
+            if(repo instanceof MavenArtifactRepository){
+                def url = repo.url.toString()
+                if (url.startsWith('https://repo1.maven.org/maven2')) {
+                    project.logger.lifecycle "Repository ${repo.url} replaced by $ALIYUN_REPOSITORY_URL."
+                    remove repo
+                }
+                if (url.startsWith('https://jcenter.bintray.com/')) {
+                    project.logger.lifecycle "Repository ${repo.url} replaced by $ALIYUN_JCENTER_URL."
+                    remove repo
+                }
+                if (url.startsWith('http://repo.spring.io/plugins-release')) {
+                    project.logger.lifecycle "Repository ${repo.url} replaced by $ALIYUN_SPRING_RELEASE_URL."
+                    remove repo
+                }
+
+            }
+        }
+        maven {
+		    allowInsecureProtocol = true
+            url ALIYUN_REPOSITORY_URL
+        }
+
+        maven {
+            allowInsecureProtocol = true
+            url ALIYUN_JCENTER_URL
+        }
+        maven {
+            allowInsecureProtocol = true
+            url ALIYUN_SPRING_RELEASE_URL
+        }
+        maven {
+            allowInsecureProtocol = true
+            url GRADLE_LOCAL_RELEASE_URL
+        }
+
+    }
+}
+```
+> 3. ./gradlew build 如果跳过测试使用./gradlew build -x test
+> 4. 构建成功获取构建包
+> 5. In the release/build/distributions
+> apache-calcite-1.33.0-SNAPSHOT-src.tar.gz
+> apache-calcite-1.33.0-SNAPSHOT-src.tar.gz.sha512
+> 6. tar -zxvf apache-calcite-1.33.0-SNAPSHOT-src.tar.gz
+> 7. cd apache-calcite-1.33.0-SNAPSHOT-src
+> 8. cd example/csv/ && cp -r /mnt/poc/alldatadc/calcite/calcite-1.33.0/build .
+> 9. 安装配置gradle7.4.2, cd /opt/gradle
+> 10. wget https://services.gradle.org/distributions/gradle-7.4.2-all.zip
+> 11. 解压 unzip gradle-7.4.2-all.zip
+> 12. 配置环境变量：export PATH=$PATH:/opt/gradle/gradle-7.4.2/bin
+```markdown
+[root@16gdata apache-calcite-1.33.0-SNAPSHOT-src]# cd example/csv/
+[root@16gdata csv]# ll
+total 24
+drwxr-xr-x 10 root root 4096 Mar  7 18:45 build
+-rw-rw-r--  1 root root 3577 Jan  2  1970 build.gradle.kts
+-rw-rw-r--  1 root root  876 Jan  2  1970 gradle.properties
+-rwxr-xr-x  1 root root 1793 Mar  7 18:44 sqlline
+-rw-rw-r--  1 root root 1537 Jan  2  1970 sqlline.bat
+drwxrwxr-x  4 root root 4096 Jan  2  1970 src
+```
+> 13. 运行./sqlline
+> 14. 进入命令行测试sqlline
+```markdown
+[root@16gdata csv]# !connect jdbc:calcite:model=src/test/resources/model.json admin admin
+-bash: !connect: event not found
+[root@16gdata csv]# ./sqlline
+Building Apache Calcite 1.33.0-SNAPSHOT
+sqlline version 1.12.0
+sqlline> !connect jdbc:calcite:model=src/test/resources/model.json admin admin
+Transaction isolation level TRANSACTION_REPEATABLE_READ is not supported. Default (TRANSACTION_NONE) will be used instead.
+0: jdbc:calcite:model=src/test/resources/mode> !tables
++-----------+-------------+------------+--------------+---------+----------+------------+-----------+---------------------------+----------------+
+| TABLE_CAT | TABLE_SCHEM | TABLE_NAME |  TABLE_TYPE  | REMARKS | TYPE_CAT | TYPE_SCHEM | TYPE_NAME | SELF_REFERENCING_COL_NAME | REF_GENERATION |
++-----------+-------------+------------+--------------+---------+----------+------------+-----------+---------------------------+----------------+
+|           | SALES       | DEPTS      | TABLE        |         |          |            |           |                           |                |
+|           | SALES       | EMPS       | TABLE        |         |          |            |           |                           |                |
+|           | SALES       | SDEPTS     | TABLE        |         |          |            |           |                           |                |
+|           | metadata    | COLUMNS    | SYSTEM TABLE |         |          |            |           |                           |                |
+|           | metadata    | TABLES     | SYSTEM TABLE |         |          |            |           |                           |                |
++-----------+-------------+------------+--------------+---------+----------+------------+-----------+---------------------------+----------------+
+0: jdbc:calcite:model=src/test/resources/mode> select * from SALES.SDEPTS;
++--------+-----------+
+| DEPTNO |   NAME    |
++--------+-----------+
+| 10     | Sales     |
+| 20     | Marketing |
+| 30     | Accounts  |
+| 40     | 40        |
+| 50     | 50        |
+| 60     | 60        |
++--------+-----------+
+6 rows selected (1.336 seconds)
+0: jdbc:calcite:model=src/test/resources/mode>
+
+```
+
 
 ## Doris POC调研
 <br/>
@@ -1343,8 +1533,9 @@ void testCreateDatabase() {
 | [**fs**](https://github.com/alldatacenter/alldata/tree/master/fs)               | DATA STORAGE FOR ALL DATA PLATFORM DATA STORAGE engine         | 大数据存储引擎                     |
 | [**govern**](https://github.com/alldatacenter/alldata/tree/master/govern)       | DATA GOVERN FOR ALL DATA PLATFORM Data Governance Engine       | 数据治理引擎                      |
 | [**iot**](https://github.com/alldatacenter/alldata/tree/master/iot)             | IOT FOR ALL DATA PLATFORM Data Governance Engine               | 云原生IOT开发框架                  |
+| [**k8s**](https://github.com/alldatacenter/alldata/tree/master/k8s)               | Koordinator FOR ALL DATA PLATFORM Data Task Engine         | 知识图谱引擎                      |
 | [**kg**](https://github.com/alldatacenter/alldata/tree/master/kg)               | KNOWLEDGE GRAPH FOR ALL DATA PLATFORM Data Task Engine         | 知识图谱引擎                      |
-| [**lakehouse**](https://github.com/alldatacenter/alldata/tree/master/lakehouse) | ONE LAKE FOR ALL DATA PLATFORM ONE LAKE engine                 | 数据湖引擎                       |
+| [**lake**](https://github.com/alldatacenter/alldata/tree/master/lake) | LAKEHOUSE FOR ALL DATA PLATFORM ONE LAKE engine                 | 数据湖引擎                       |
 | [**market**](https://github.com/alldatacenter/alldata/tree/master/market)       | MARKET FOR ALL DATA PLATFORM MARKET engine                     | 数据实验场引擎                     |
 | [**olap**](https://github.com/alldatacenter/alldata/tree/master/olap)           | OLAP FOR ALL DATA PLATFORM OLAP query engine                   | 混合OLAP查询引擎                  |
 | [**trade**](https://github.com/alldatacenter/alldata/tree/master/trade)         | TRADE FOR ALL DATA PLATFORM TRADE Engine                       | TRADE引擎                     |
@@ -1394,31 +1585,6 @@ void testCreateDatabase() {
 
 
 ## Integration
-
-## Data Quality
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171132004-542b699c-2878-4648-a79e-f118f28a0ed2.png">
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171131705-86a2c0bd-cd9d-4a66-b209-5c41d1b18e56.png">
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171132036-613e1271-d122-47dc-af7c-a3ee2a203a2e.png">
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171132186-261b742a-dc88-4739-8327-08b503fce8d8.png">
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171132633-193bbba4-58d6-4b38-8e9e-4674cdfa7cdd.png">
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171132684-37ebcec6-05dd-45d6-83cd-d4f18416b755.png"> 
-<br/>
-
-<br/>
-
-### Livy访问查看JOB
-
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171131636-4cb6d93b-c994-4dfa-bfee-48d2a04c4963.png">  
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171133364-8e4a8e84-c9f9-456c-9f33-c90b90cf54e4.png"> 
-<br/>
 
 ## 离线商城数仓展示
 <br>
