@@ -25,7 +25,11 @@
 > 首页
 
 <br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204965519-d8fc6e7d-235d-4b52-82f6-358b3863d724.png">
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227456470-6fd4e3c8-e5b7-48f9-bf3a-83975f78654c.png">
+<br/>
+
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227456480-d23d6df9-65f0-45f8-8d02-b1a448fcf0cc.png">
 <br/>
 
 > 数据集成
@@ -61,77 +65,139 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/206071565-1634a747-0f60-4dcd-a294-90d80d59cdc7.png">
 <br/>
 
-
-> 元数据管理
-
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203520997-9ac122bb-f61a-4ea9-becf-efa0b72320ad.png">
-<br/>
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521639-ed23fceb-96ef-49e2-ac49-931978d7dcc0.png">
-<br/>
-
-> 元数据拾取
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521695-8f7469db-fc98-44e2-b82c-de729cd5c9e1.png">
-<br/>
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521746-5d43dcc1-7ed3-4e50-b3b1-8fa767c34b26.png">
-<br/>
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521777-1c0a2635-27a5-42f3-a985-2d68556ed9d0.png">
-<br/>
-
-
-> 应用分析
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521541-3a3186fd-0827-4c4c-bca0-f2761d6f4d67.png">
-<br/>
-
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521584-4099710f-b31f-4815-9c7f-e08e0cdc45bf.png">
-<br/>
-
-> 系统菜单管理
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/203521695-8f7469db-fc98-44e2-b82c-de729cd5c9e1.png">
-<br/>
-
-> 元数据管理
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204560882-bc7876d5-6c35-4b79-aa39-aa2803f46e8c.png">
-<br/>
-
 > 数据质量
 <br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204560895-d03ec73a-f670-4238-860e-26b708c3f2b7.png">
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457313-aac5a92e-3780-4b81-99f3-de6ea1b32f79.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457303-9272dd14-6602-4f32-ab26-ea2c4b9e7c55.png">
+<br/>
+
+> 数据标准
+
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457469-8183b633-ace2-48ed-91ac-9d1c114e7e67.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457478-8ddf5083-5bad-4b27-90b9-14bebf7615f6.png">
+<br/>
+
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457492-9c90f9a6-2a56-47ce-9042-00e2c5c662ec.png">
+<br/>
+
+> 元数据管理
+
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227456662-be27764e-f2a1-46a1-97fb-4689a93a42a9.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227456676-9c66e22b-393c-4757-a22f-2aa1604bef51.png">
+<br/>
+
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227456683-36436d97-76fc-4a0d-b4b7-e0090a6a2575.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227456694-06a042cf-cad6-4bf5-ae41-8f1fad46c642.png">
+<br/>
+
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227456700-76a54b9f-e806-4ca7-b1d3-d0a9fa383de1.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227456710-c004ac4a-5f67-45f2-9cbf-67b855a55c34.png">
+<br/>
+
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227456722-4f468872-2ada-4ad8-a56e-69c63f9b7e31.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227456740-12c5298d-c72f-46ec-88ec-c680efbb592f.png">
+<br/>
+
+> 数据资产
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457692-c9c1a763-b0e5-4afe-abe7-623203ab6231.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457706-872b49b5-9ec5-4ad3-beb1-535fbd88dde3.png">
 <br/>
 
 
 > 数据市场
 <br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204560915-6c17f056-0956-4a83-94a6-00cd21571af9.png">
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457844-e1a3ebbe-5a7c-43c4-8317-2bf066c5deed.png">
 <br/>
-
-
-> 数据标准
 <br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204561067-831d0733-812a-4660-a198-8248eaaf2d8c.png">
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457858-37307d6b-41a1-4475-8d69-d7bcc38f6f10.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457862-415bdb7f-784e-4db9-9e54-eb83ea7a581f.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457872-6cbb24e0-82e1-47de-b3f8-200cdb47b90f.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457882-77fc873b-c340-47f1-b41c-9b2d5e73ff4d.png">
 <br/>
 
 > BI报表
 <br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204561081-30169347-8aff-4150-a8c2-f3f3a5a2a20d.png">
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458114-48ab43b4-437d-4b7e-9eb3-d49b1da1b762.png">
 <br/>
-
-> 数据资产
 <br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204561280-3d656a33-9e3a-440e-ab37-93397fe26b04.png">
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458126-d5367210-fd82-4190-bf71-b99c6fc3176e.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458133-39ad2515-4447-4f6d-a9c7-e353d70c628d.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458143-5c771b96-6888-48e1-9e1c-265efee62b30.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458149-b658b9ea-c6df-4a7d-884c-d02f42aadb3e.png">
 <br/>
 
 > 流程编排
 <br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204561326-002e0e59-e89d-47b4-8648-ca932194937b.png">
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458401-9244442e-c66d-4ebe-8a81-e989bedb1415.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458415-ec02039f-73d0-4513-b613-5aa931c9b294.png">
+<br/>
+
+
+> 系统监控
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458501-7493df22-026b-402d-80dd-03c4b9bd8224.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458517-45eb4fd4-ccc1-4a37-8a0d-4403301bbc55.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458525-639b90bf-ffc3-439e-ba74-b9e9ce2f1323.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458535-2fea5b2c-b478-4192-a303-f377de0cd9b1.png">
+<br/>
+
+
+> 运维管理
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458729-f6517a7e-ad37-4ce1-94d8-e2a2b41de7b9.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458745-5455a74e-706a-4498-af4a-39454f743cd6.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458756-9db88ca2-848d-4461-a4da-5ca149288779.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458765-f6be2c35-d870-4952-a79c-bb26ebaac6e7.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458778-4f2e1b46-d532-4411-b104-8288fcb97ad7.png">
 <br/>
 
 > AllData AI Studio 社区版
@@ -297,21 +363,21 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/221345609-45a34a1a-8316-4810-8624-bc43a0e3c91d.png">
 <br/>
 
-> 数据库版本为 **mysql5.7** 及以上版本 
+> 数据库版本为 **mysql5.7** 及以上版本
 ### 1、`studio`数据库初始化
-> 
+>
 > 1.1 source install/16gmaster/studio/studio.sql
 
 ### 2、修改 **config** 配置中心
 
 > **config** 文件夹下的配置文件，修改 **redis**，**mysql** 和 **rabbitmq** 的配置信息
-> 
+>
 ### 3、项目根目录下执行 **mvn package**
-> 
+>
 > 获取安装包build/studio-release-0.3.2.tar.gz
-> 
+>
 > 上传服务器解压
-> 
+>
 ### 4、部署`stuido`[后端]
 ## 单节点启动[All In One]
 
@@ -376,9 +442,9 @@
 > 测试环境启动前端ui项目
 >
 > npm run dev [测试]
-> 
+>
 > 访问`studio`页面
-> 
+>
 > curl http://localhost:8013
 >
 > 用户名：admin 密码：123456
@@ -419,7 +485,7 @@
 
 ## Griffin POC调研
 > 安装apache-maven-3.6.3
-> 
+>
 > cd griffin && mvn clean package -DskipTests=TRUE
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/224027349-f9298f12-4ab5-4521-ab16-c81db8032576.png">
@@ -470,11 +536,11 @@
 > 2. init.gradle文件
 ```markdown
 allprojects{
-    repositories {
-        def ALIYUN_REPOSITORY_URL = 'http://maven.aliyun.com/nexus/content/groups/public'
-        def ALIYUN_JCENTER_URL = 'http://maven.aliyun.com/nexus/content/repositories/jcenter'
-        def GRADLE_LOCAL_RELEASE_URL = 'https://repo.gradle.org/gradle/libs-releases-local'
-        def ALIYUN_SPRING_RELEASE_URL = 'https://maven.aliyun.com/repository/spring-plugin'
+repositories {
+def ALIYUN_REPOSITORY_URL = 'http://maven.aliyun.com/nexus/content/groups/public'
+def ALIYUN_JCENTER_URL = 'http://maven.aliyun.com/nexus/content/repositories/jcenter'
+def GRADLE_LOCAL_RELEASE_URL = 'https://repo.gradle.org/gradle/libs-releases-local'
+def ALIYUN_SPRING_RELEASE_URL = 'https://maven.aliyun.com/repository/spring-plugin'
 
         all { ArtifactRepository repo ->
             if(repo instanceof MavenArtifactRepository){
@@ -518,8 +584,8 @@ allprojects{
 > 3. ./gradlew build 如果跳过测试使用./gradlew build -x test
 > 4. 构建成功获取构建包
 > 5. In the release/build/distributions
-> apache-calcite-1.33.0-SNAPSHOT-src.tar.gz
-> apache-calcite-1.33.0-SNAPSHOT-src.tar.gz.sha512
+     > apache-calcite-1.33.0-SNAPSHOT-src.tar.gz
+     > apache-calcite-1.33.0-SNAPSHOT-src.tar.gz.sha512
 > 6. tar -zxvf apache-calcite-1.33.0-SNAPSHOT-src.tar.gz
 > 7. cd apache-calcite-1.33.0-SNAPSHOT-src
 > 8. cd example/csv/ && cp -r /mnt/poc/alldatadc/calcite/calcite-1.33.0/build .
@@ -598,7 +664,7 @@ Transaction isolation level TRANSACTION_REPEATABLE_READ is not supported. Defaul
 > 6. mv apache-doris-1.1.0-src doris-1.1.0
 > 7. sh build.sh
 > 8. web访问http://16gdata:8080
-> 9. 参考https://doris.apache.org/zh-CN/docs/get-starting/ 
+> 9. 参考https://doris.apache.org/zh-CN/docs/get-starting/
 > 10. 启动fe ./bin/start_fe.sh --daemon 成功启动：curl http://127.0.0.1:8030/api/bootstrap
 > 11. mysql -uroot -P9030 -h127.0.0.1 然后ALTER SYSTEM ADD BACKEND "127.0.0.1:9050";
 > 13. cp java-udf-jar-with-dependencies.jar ./be/lib/
@@ -609,20 +675,20 @@ use demo;
 
 CREATE TABLE IF NOT EXISTS demo.example_tbl
 (
-    `user_id` LARGEINT NOT NULL COMMENT "用户id",
-    `date` DATE NOT NULL COMMENT "数据灌入日期时间",
-    `city` VARCHAR(20) COMMENT "用户所在城市",
-    `age` SMALLINT COMMENT "用户年龄",
-    `sex` TINYINT COMMENT "用户性别",
-    `last_visit_date` DATETIME REPLACE DEFAULT "1970-01-01 00:00:00" COMMENT "用户最后一次访问时间",
-    `cost` BIGINT SUM DEFAULT "0" COMMENT "用户总消费",
-    `max_dwell_time` INT MAX DEFAULT "0" COMMENT "用户最大停留时间",
-    `min_dwell_time` INT MIN DEFAULT "99999" COMMENT "用户最小停留时间"
+`user_id` LARGEINT NOT NULL COMMENT "用户id",
+`date` DATE NOT NULL COMMENT "数据灌入日期时间",
+`city` VARCHAR(20) COMMENT "用户所在城市",
+`age` SMALLINT COMMENT "用户年龄",
+`sex` TINYINT COMMENT "用户性别",
+`last_visit_date` DATETIME REPLACE DEFAULT "1970-01-01 00:00:00" COMMENT "用户最后一次访问时间",
+`cost` BIGINT SUM DEFAULT "0" COMMENT "用户总消费",
+`max_dwell_time` INT MAX DEFAULT "0" COMMENT "用户最大停留时间",
+`min_dwell_time` INT MIN DEFAULT "99999" COMMENT "用户最小停留时间"
 )
 AGGREGATE KEY(`user_id`, `date`, `city`, `age`, `sex`)
 DISTRIBUTED BY HASH(`user_id`) BUCKETS 1
 PROPERTIES (
-    "replication_allocation" = "tag.location.default: 1"
+"replication_allocation" = "tag.location.default: 1"
 );
 ```
 > 16. touch sample.csv
@@ -736,7 +802,7 @@ for f in `find /mnt/poc/alldatadc/tis_poc/plugins  -name '*.tpi' -print` do echo
 > 5. 安装plugins
 >
 > mvn clean package -Dmaven.test.skip=true -Dappname=all
-> 
+>
 
 > 3. 部署ng-tis,参考ng-tis/README.md
 ## 本地打包部署 on Linux
@@ -747,7 +813,7 @@ for f in `find /mnt/poc/alldatadc/tis_poc/plugins  -name '*.tpi' -print` do echo
 > 3. npm run ng:serve-jit --scripts-prepend-node-path=auto
 >
 > 4. curl http://localhost:4200
-> 
+>
 ## DataVines 数据质量POC调研
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/221765941-b2903701-d4f3-4895-9f1d-7f317998b9ae.png">
@@ -790,32 +856,32 @@ for f in `find /mnt/poc/alldatadc/tis_poc/plugins  -name '*.tpi' -print` do echo
 > DataHub (& GMA) 架构
 > DatahHub 采用前后端分离 + 微服务 / 容器架构
 > 前端：Ember + TypeScript + ES9 + ES.Next + Yarn + ESLint
-> 
+>
 > 服务端：Play Framework（web 框架） + Spring + Rest.li（restful 框架）+ Pegasus（数据建模语言） + Apache Samza （流处理框架）
-> 
+>
 > 基础设施：elastic search (5.6) + Mysql + neo4j + kafka
-> 
+>
 > 构建工具：Gradlew + Docker + Docker compose
-> 
+>
 > DataHub 组成
-> 
+>
 > datahub-gms (Generalized Metadata Store) ： 元数据存储服务
-> 
+>
 > datahub-gma (Generalized Metadata Architecture) ： 通用元数据体系结构
-> 
+>
 > GMA 是 datahub 的基础设施，提供标准化的元数据模型和访问层
-> 
+>
 > datahub-frontend ： 应用前端
-> 
+>
 > datahub-mxe 元数据事件datahub-mce-consumer （MetadataChangeEvent）：元数据变更事件，由平台或爬虫程序发起，写入到 GMS
-> 
+>
 > datahub-mae-consumer (MetadataAuditEvent)： 元数据审计事件，只有被成功处理的 MCE 才会产生相应的 MAE，由 GMS 发起 ，写入到 es&Neo4j
 
 ### 1、JAVA_HOME
 > 1.1 安装Java-11 && 配置JAVA_HOME
 >
 > sudo yum install java-11-openjdk -y
-> 
+>
 > sudo yum install java-11-openjdk-devel
 >
 > 1.2 安装Java-8 && 不需要配置JAVA_HOME
@@ -825,51 +891,51 @@ for f in `find /mnt/poc/alldatadc/tis_poc/plugins  -name '*.tpi' -print` do echo
 > yum install -y java-1.8.0-openjdk-devel.x86_64
 
 ### 2、Python3.7以上版本
-> 2.1 下载python3.7 
-> 
+> 2.1 下载python3.7
+>
 > mkdir -p /usr/local/python3 && cd /usr/local/python3
-> 
+>
 > wget https://www.python.org/ftp/python/3.7.16/Python-3.7.16.tar.xz
-> 
+>
 > tar -xvf Python-3.7.16.tar.xz
-> 
+>
 > cd Python-3.7.16
-> 
+>
 > ./configure --prefix=/usr/local/python3
 >
 > make && make install
-> 
+>
 > ln -s /usr/local/python3/bin/python3 /usr/bin/python3
-> 
+>
 > 验证python3.7版本
 
 ### 3、源码构建
 > 3.1 安装sasl、fastjsonschema
 >
 > 3.1.1 yum -y install cyrus-sasl cyrus-sasl-devel cyrus-sasl-lib
-> 
+>
 > 3.1.2 pip3 install fastjsonschema
-> 
+>
 > 3.1.3 yum -y install openldap-devel
-> 
+>
 > 3.1.4 pip3 install python_ldap
-> 
+>
 > 3.1.5 cd cd smoke-test && pip install -r requirements.txt
-> 
+>
 > 3.2 安装命令行
-> 
+>
 > ./gradlew :metadata-ingestion:installDev
-> 
-> 3.3 后端打包 
-> 
+>
+> 3.3 后端打包
+>
 > 执行./gradlew metadata-service:war:build
-> 
-> 3.4 前端打包 
-> 
+>
+> 3.4 前端打包
+>
 > 修改node版本: 找到datahub-0.10.0/datahub-web-react/build.gradle, 修改version为'16.10.0'
 >
 > export NODE_OPTIONS="--max-old-space-size=8192"
-> 
+>
 > 执行./gradlew :datahub-frontend:dist -x yarnTest -x yarnLint
 
 ### 4 启动datahub
@@ -1586,16 +1652,6 @@ void testCreateDatabase() {
 <br/>
 
 ## AllData总部前后端解决方案
-### 包括AllData前后端解决方案, 多租户运维平台前后端
-### 基于`eladmin` + `tenant` 建设AllData前后端解决方案
-
-> 1, AllData前端解决方案 `studio/eladmin-web`
->
-> 2, AllData后端解决方案 `studio/eladmin`
->
-> 3, 多租户运维平台前端 `studio/tenant`
->
-> 4, 多租户运维平台前端 `studio/tenantBack`
 
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/196594418-1ba618cb-da53-487a-951d-0715e3fc685e.jpg">
 
@@ -1620,17 +1676,17 @@ void testCreateDatabase() {
 ## 知识图谱（Knowledge Graph）
 
 ## 知识图谱建设方法论:
-### 一, 知识图谱技术架构: 确定知识的表示方式和知识的存储方式, 
+### 一, 知识图谱技术架构: 确定知识的表示方式和知识的存储方式,
 
 ### 二, 知识图谱建设方法论: 知识图谱建设可以分为知识建模, 知识抽取, 知识验证这样几个阶段, 形成一个知识图谱
 >
 >  从知识抽取的内容上, 又可以分为实体抽取, 属性抽取, 关系抽取, 事件抽取:
 >
-> 实体抽取指从数据源中检测到可命名的实体, 并将它们分类到已建模的类型中, 例如人, 组织, 地点, 时间等等, 
+> 实体抽取指从数据源中检测到可命名的实体, 并将它们分类到已建模的类型中, 例如人, 组织, 地点, 时间等等,
 >
-> 属性抽取是识别出命名实体的具体属性, 
+> 属性抽取是识别出命名实体的具体属性,
 >
-> 关系抽取是识别出实体与实体之间的关系, 例如从句子“著名歌手周杰伦的妻子昆凌”中识别出“周杰伦”与“昆凌”之间的夫妻关系, 
+> 关系抽取是识别出实体与实体之间的关系, 例如从句子“著名歌手周杰伦的妻子昆凌”中识别出“周杰伦”与“昆凌”之间的夫妻关系,
 >
 > 事件抽取是识别出命名实体相关的事件信息, 例如“周杰伦”与“昆凌”结婚就是一个事件
 >
@@ -1661,9 +1717,9 @@ void testCreateDatabase() {
 
 ## 从0到1建设大数据解决方案
 
-> 从0到1建设大数据解决方案是一个相对比较宏观的过程, 需要考虑从业务需求分析, 数据采集, 数据处理, 数据存储, 数据查询分析到数据可视化展示等多个环节, 
+> 从0到1建设大数据解决方案是一个相对比较宏观的过程, 需要考虑从业务需求分析, 数据采集, 数据处理, 数据存储, 数据查询分析到数据可视化展示等多个环节,
 >
-> 以下是一个简单的大数据解决方案建设方法论: 
+> 以下是一个简单的大数据解决方案建设方法论:
 >
 > 需求分析: 首先需要明确业务需求, 包括数据源, 数据量, 数据类型, 数据质量等等, 可以与业务人员进行沟通, 制定出明确的需求和目标, 确定解决方案的规模和数据的范围
 >
@@ -1685,11 +1741,11 @@ void testCreateDatabase() {
 
 ## 数字化转型
 >
-> 数字化转型是指将传统企业在信息化, 网络化, 智能化, 数据化等技术的支撑下, 对业务, 组织, 文化, 价值创造, 利益分配等方面进行全面的革新和升级, 
+> 数字化转型是指将传统企业在信息化, 网络化, 智能化, 数据化等技术的支撑下, 对业务, 组织, 文化, 价值创造, 利益分配等方面进行全面的革新和升级,
 >
 > 以适应市场, 技术, 用户等环境的变化数字化转型的目标是实现企业从传统生产经营方式向数字化经营模式的转变, 提高企业的效率, 创新能力, 市场竞争力和盈利能力
 >
-> 数字化转型方法论可以概括为以下几个方面: 
+> 数字化转型方法论可以概括为以下几个方面:
 >
 > 确定数字化转型的战略目标和方向, 明确数字化转型的意义和价值, 为数字化转型的实施提供方向和支撑
 >
@@ -1710,3 +1766,4 @@ void testCreateDatabase() {
 ## Community
 
 > 联系作者: https://docs.qq.com/doc/DVFVMYUp6cFhSRVJs
+
