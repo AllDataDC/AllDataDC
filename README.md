@@ -1,6 +1,6 @@
 # AllData 一站式细分领域数字化解决方案
 
-## [原型](https://orgnext.modao.cc/app/HhitGZQTr954c7Ug8XBvAY) ｜ [官方文档](https://alldatacenter.github.io/) ｜ [Document](https://github.com/alldatacenter/alldata/blob/master/README.md) ｜ [Community](#community)
+## [原型](https://orgnext.modao.cc/app/HhitGZQTr954c7Ug8XBvAY) ｜ [官方文档](https://alldata.readthedocs.io/) ｜ [Document](https://github.com/alldatacenter/alldata/blob/master/README.md) ｜ [Community](#community)
 
 
 ## Stargazers over time
@@ -363,18 +363,51 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/221345609-45a34a1a-8316-4810-8624-bc43a0e3c91d.png">
 <br/>
 
+| 16gmaster                | port | ip             |
+|--------------------------|------| -------------- |
+| system-service           | 8000 | 16gmaster  |
+| data-market-service      | 8822 | 16gmaster  |
+| service-data-integration | 8824 | 16gmaster  |
+| data-metadata-service    | 8820 | 16gmaster  |
+| data-system-service      | 8810 | 16gmaster  |
+| service-data-dts         | 9536 | 16gmaster  |
+| config                   | 8611 | 16gmaster  |
+
+| 16gslave                      | port | ip             |
+|-------------------------------| ---- | -------------- |
+| eureka                  | 8610 | 16gslave    |
+| service-workflow        | 8814 | 16gslave    |
+| data-metadata-service-console    | 8821 | 16gslave    |
+| service-data-mapping    | 8823 | 16gslave    |
+| data-masterdata-service | 8828 | 16gslave    |
+| data-quality-service    | 8826 | 16gslave    |
+
+| 16gdata               | port | ip             |
+|-----------------------| ---- | -------------- |
+| data-standard-service | 8825 | 16gdata |
+| data-visual-service   | 8827 | 16gdata |
+| email-service         | 8812 | 16gdata |
+| file-service          | 8811 | 16gdata |
+| quartz-service        | 8813 | 16gdata |
+| gateway               | 9538 | 16gslave    |
+
+
+### 部署方式
+
 > 数据库版本为 **mysql5.7** 及以上版本
 ### 1、`studio`数据库初始化
 >
 > 1.1 source install/16gmaster/studio/studio.sql
+> 1.2 source install/16gmaster/studio/studio-v0.3.6.sql
 
 ### 2、修改 **config** 配置中心
 
 > **config** 文件夹下的配置文件，修改 **redis**，**mysql** 和 **rabbitmq** 的配置信息
 >
-### 3、项目根目录下执行 **mvn package**
+### 3、项目根目录下执行
+> mvn clean install -DskipTests && mvn clean package -DskipTests
 >
-> 获取安装包build/studio-release-0.3.2.tar.gz
+> 获取安装包build/studio-release-0.3.x.tar.gz
 >
 > 上传服务器解压
 >
@@ -383,20 +416,24 @@
 
 > 1、启动eureka on `16gslave`
 >
-> 2、启动config on `16gslave`
+> 2、启动config on `16gmaster`
 >
-> 3、启动gateway on `16gslave`
+> 3、启动gateway on `16gdata`
 >
-> 4、启动masterdata on `16gslave`
->
-> 5、启动metadata
->
-> 6、启动其他Jar
+> 4、启动其他Jar
 
 ## 三节点启动[16gmaster, 16gslave, 16gdata]
-> 1. 启动`16gslave`, sh start16gslave.sh
-> 2. 启动`16gdata`, sh start16gdata.sh
-> 3. 启动`16gmaster`, sh start16gmaster.sh
+> 1. 单独启动 eureka on `16gslave`
+>
+> 2. 单独启动config on `16gmaster`
+>
+> 3. 单独启动gateway on `16gdata`
+>
+> 4. 启动`16gslave`, sh start16gslave.sh
+>
+> 5. 启动`16gdata`, sh start16gdata.sh
+>
+> 6. 启动`16gmaster`, sh start16gmaster.sh
 
 ### 5、部署`studio`[前端]:
 ## 前端部署
@@ -420,24 +457,61 @@
 >
 > 生产环境启动前端ui项目，需要[配置nginx]
 ```markdown
-  server {
-			listen       80;
-			server_name  16gmaster;
-			add_header Access-Control-Allow-Origin *;
-			add_header Access-Control-Allow-Headers X-Requested-With;
-			add_header Access-Control-Allow-Methods GET,POST,OPTIONS;
-			location / {
-					root /mnt/poc/alldatadc/studio_prod/ui/dist;
-					index index.html;
-					try_files $uri $uri/ /index.html;
-			}
-			location /api {
-					proxy_pass  http://16gslave:9538;
-					proxy_set_header Host $proxy_host;
-					proxy_set_header X-Real-IP $remote_addr;
-					proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-			}
+# For more information on configuration, see:
+#   * Official English Documentation: http://nginx.org/en/docs/
+#   * Official Russian Documentation: http://nginx.org/ru/docs/
+
+user nginx;
+worker_processes auto;
+error_log /var/log/nginx/error.log;
+pid /run/nginx.pid;
+
+# Load dynamic modules. See /usr/share/doc/nginx/README.dynamic.
+include /usr/share/nginx/modules/*.conf;
+
+events {
+worker_connections 1024;
+}
+
+http {
+log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+'$status $body_bytes_sent "$http_referer" '
+'"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log  /var/log/nginx/access.log  main;
+
+    sendfile            on;
+    tcp_nopush          on;
+    tcp_nodelay         on;
+    keepalive_timeout   65;
+    types_hash_max_size 4096;
+
+    include             /etc/nginx/mime.types;
+    default_type        application/octet-stream;
+
+    # Load modular configuration files from the /etc/nginx/conf.d directory.
+    # See http://nginx.org/en/docs/ngx_core_module.html#include
+    # for more information.
+    include /etc/nginx/conf.d/*.conf;
+    server {
+		listen       80;
+		server_name  16gmaster;	
+		add_header Access-Control-Allow-Origin *;
+		add_header Access-Control-Allow-Headers X-Requested-With;
+		add_header Access-Control-Allow-Methods GET,POST,OPTIONS;
+		location / {
+			root /studio/ui/dist;
+			index index.html;
+			try_files $uri $uri/ /index.html;
+		}
+		location /api/ {
+			proxy_pass  http://16gdata:9538/;
+			proxy_set_header Host $proxy_host;
+			proxy_set_header X-Real-IP $remote_addr;
+			proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+		}
 	}
+}
 ```
 > 测试环境启动前端ui项目
 >
@@ -449,6 +523,43 @@
 >
 > 用户名：admin 密码：123456
 
+## Antlr4 SQL POC
+
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227958337-611c8b86-bc99-4a42-ad56-49f99531dd39.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227958353-4ec1b51b-1514-4845-a441-4d689f5d6fd8.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227958367-9ae952f6-adf3-4bbc-8191-2619785ddb9f.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227958381-1650deff-6fe1-4cb2-ba39-5af04bb3cc1f.png">
+<br/>
+1、Antlr4词法解析和语法解析
+> 包括词法解析、语法解析、Antlr4的结果的处理
+
+2、Antlr4执行阶段
+> 1. 分为Lexer和Parser，实际上表示了两个不同的阶段：
+>
+> 2. 词法分析阶段：对应于Lexer定义的词法规则，解析结果为一个一个的Token；
+     > 解析阶段：根据词法，构造出来一棵解析树或者语法树。
+>
+> 3. 词法解析和语法解析的调和
+> 4. 首先，语法解析相对于词法解析，会产生更多的开销，所以，应该尽量将某些可能的处理在词法解析阶段完成，减少语法解析阶段的开销
+> 5. 合并语言不关心的标记，例如，某些语言（例如js）不区分int、double，只有 number，那么在词法解析阶段，
+     > 就不需要将int和double区分开，统一合并为一个number；
+> 6. 空格、注释等信息，对于语法解析并无大的帮助，可以在词法分析阶段剔除掉；
+     > 诸如标志符、关键字、字符串和数字这样的常用记号，均应该在词法解析时完成，而不要到语法解析阶段再进行。
+> 7. 只有 number，没有 int 和 double 等，但是面向静态代码分析，我们可能需要知道确切的类型来帮助分析特定的缺陷；
+>
+> 8. 虽然注释对代码帮助不大，但是我们有时候也需要解析注释的内容来进行分析，如果无法在语法解析的时候获取，
+     > 那么就需要遍历Token，从而导致静态代码分析开销更大等；
+> 9. 解析树vs语法树
+> 10. Antlr4生成的树状结构，称为解析树或者是语法树，如果通过Antlr4解析语言简单使用，可以直接基于Antlr4的结果开发，
+      但是如果要进行更加深入的处理，就需要对Antlr4的结果进行更进一步的处理，以更符合我们的使用习惯
+> 11. Java Parser格式的Java的AST，Clang格式的C/C++的AST, 然后才能更好地在上面进行开发。
 
 
 ## Presto POC调研
@@ -1011,7 +1122,7 @@ services:
       - EBEAN_DATASOURCE_DRIVER=com.mysql.jdbc.Driver
       - EBEAN_DATASOURCE_HOST=mysql:3306
       - EBEAN_DATASOURCE_PASSWORD=datahub
-      - EBEAN_DATASOURCE_URL=jdbc:mysql://mysql:3306/datahub?verifyServerCertificate=false&useSSL=true&useUnicode=yes&characterEncoding=UTF-8
+      - EBEAN_DATASOURCE_URL=jdbc:mysql://mysql:3306/datahub?verifyServerCertificate=false&useSSL=false&useUnicode=yes&characterEncoding=UTF-8
       - EBEAN_DATASOURCE_USERNAME=datahub
       - ELASTICSEARCH_HOST=elasticsearch
       - ELASTICSEARCH_INDEX_BUILDER_MAPPINGS_REINDEX=true
@@ -1044,7 +1155,7 @@ services:
       - EBEAN_DATASOURCE_USERNAME=datahub
       - EBEAN_DATASOURCE_PASSWORD=datahub
       - EBEAN_DATASOURCE_HOST=mysql:3306
-      - EBEAN_DATASOURCE_URL=jdbc:mysql://mysql:3306/datahub?verifyServerCertificate=false&useSSL=true&useUnicode=yes&characterEncoding=UTF-8
+      - EBEAN_DATASOURCE_URL=jdbc:mysql://mysql:3306/datahub?verifyServerCertificate=false&useSSL=false&useUnicode=yes&characterEncoding=UTF-8
       - EBEAN_DATASOURCE_DRIVER=com.mysql.jdbc.Driver
       - KAFKA_BOOTSTRAP_SERVER=broker:29092
       - KAFKA_SCHEMAREGISTRY_URL=http://schema-registry:8081
@@ -1652,6 +1763,16 @@ void testCreateDatabase() {
 <br/>
 
 ## AllData总部前后端解决方案
+### 包括AllData前后端解决方案, 多租户运维平台前后端
+### 基于`eladmin` + `tenant` 建设AllData前后端解决方案
+
+> 1, AllData前端解决方案 `studio/eladmin-web`
+>
+> 2, AllData后端解决方案 `studio/eladmin`
+>
+> 3, 多租户运维平台前端 `studio/tenant`
+>
+> 4, 多租户运维平台前端 `studio/tenantBack`
 
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/196594418-1ba618cb-da53-487a-951d-0715e3fc685e.jpg">
 
@@ -1765,5 +1886,4 @@ void testCreateDatabase() {
 
 ## Community
 
-> 联系作者: https://docs.qq.com/doc/DVFVMYUp6cFhSRVJs
-
+> 联系作者: https://docs.qq.com/doc/DVFZ1RFhGYkJRSGxN
