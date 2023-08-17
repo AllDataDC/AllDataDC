@@ -18,7 +18,12 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204965509-fc13050b-ebe8-4bd5-8882-69e1af0a8367.png">
 <br/>
 
-> 首页
+## AllData数字化解决方案
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/235920344-fbf3c9d2-6239-4c73-aa9c-77a72773780e.png">
+<br/>
+
+## 首页
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227456470-6fd4e3c8-e5b7-48f9-bf3a-83975f78654c.png">
@@ -28,7 +33,7 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227456480-d23d6df9-65f0-45f8-8d02-b1a448fcf0cc.png">
 <br/>
 
-> 数据集成
+## 数据集成
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/206071504-c0e2b3ca-e3c2-4d70-8213-55c7316465ff.png">
@@ -61,7 +66,7 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/206071565-1634a747-0f60-4dcd-a294-90d80d59cdc7.png">
 <br/>
 
-> 数据质量
+## 数据质量
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457313-aac5a92e-3780-4b81-99f3-de6ea1b32f79.png">
 <br/>
@@ -69,7 +74,7 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457303-9272dd14-6602-4f32-ab26-ea2c4b9e7c55.png">
 <br/>
 
-> 数据标准
+## 数据标准
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457469-8183b633-ace2-48ed-91ac-9d1c114e7e67.png">
@@ -82,7 +87,7 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457492-9c90f9a6-2a56-47ce-9042-00e2c5c662ec.png">
 <br/>
 
-> 元数据管理
+## 元数据管理
 
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227456662-be27764e-f2a1-46a1-97fb-4689a93a42a9.png">
@@ -112,7 +117,7 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227456740-12c5298d-c72f-46ec-88ec-c680efbb592f.png">
 <br/>
 
-> 数据资产
+## 数据资产
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457692-c9c1a763-b0e5-4afe-abe7-623203ab6231.png">
 <br/>
@@ -121,7 +126,7 @@
 <br/>
 
 
-> 数据市场
+## 数据市场
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457844-e1a3ebbe-5a7c-43c4-8317-2bf066c5deed.png">
 <br/>
@@ -138,7 +143,31 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227457882-77fc873b-c340-47f1-b41c-9b2d5e73ff4d.png">
 <br/>
 
-> BI报表
+## 数据比对
+
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/234816803-ca89bdd2-bce6-499d-8dbf-0522ed07ba86.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/234816815-89864618-f786-47ff-ae31-4fd8c662130b.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/234816833-7bf1202b-9a9a-48cd-9523-d329ad92cf69.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/234816849-5563f3c1-32f3-4ab8-ae1a-7919c65fd656.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/234816860-72f06760-94cd-497f-a623-7bb378d8077f.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/234816915-d45771bb-de17-4e3c-88ae-183d1aa28a1b.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/234817116-dc4bca8e-e8ac-4efa-a2a0-d91ce9eb56e8.png">
+<br/>
+
+## BI报表
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458114-48ab43b4-437d-4b7e-9eb3-d49b1da1b762.png">
 <br/>
@@ -155,7 +184,7 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458149-b658b9ea-c6df-4a7d-884c-d02f42aadb3e.png">
 <br/>
 
-> 流程编排
+## 流程编排
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458401-9244442e-c66d-4ebe-8a81-e989bedb1415.png">
 <br/>
@@ -164,7 +193,7 @@
 <br/>
 
 
-> 系统监控
+## 系统监控
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458501-7493df22-026b-402d-80dd-03c4b9bd8224.png">
 <br/>
@@ -179,7 +208,7 @@
 <br/>
 
 
-> 运维管理
+## 运维管理
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458729-f6517a7e-ad37-4ce1-94d8-e2a2b41de7b9.png">
 <br/>
@@ -196,12 +225,12 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458778-4f2e1b46-d532-4411-b104-8288fcb97ad7.png">
 <br/>
 
-> AllData AI Studio 社区版
+## AllData AI Studio 社区版
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/211255550-2d58eb94-42ce-411c-9487-9f2e499e565a.png">
 <br/>
 
-> AllData Studio 社区版
+## AllData Studio 社区版
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/210299541-b9f4d344-30ba-4fc9-a083-390129f7da1e.png">
 <br/>
@@ -289,68 +318,6 @@
         - 已办任务: 已办任务管理
     - 业务配置: 配置业务系统与流程的相关属性
 
-
-### 项目结构
-项目采用按功能分模块的开发方式, 结构如下
-
-- `common` 为系统的公共模块, 各种工具类, 公共配置存在该模块
-
-- `system` 为系统核心模块也是项目入口模块, 也是最终需要打包部署的模块
-
-- `logging` 为系统的日志模块, 其他模块如果需要记录日志需要引入该模块
-
-- `tools` 为第三方工具模块, 包含: 图床, 邮件, 云存储, 本地存储, 支付宝
-
-- `generator` 为系统的代码生成模块, 代码生成的模板在 system 模块中
-
-### 详细结构
-
-```
-- common 公共模块
-    - annotation 为系统自定义注解
-    - aspect 自定义注解的切面
-    - base 提供了Entity, DTO基类和mapstruct的通用mapper
-    - config 自定义权限实现, redis配置, swagger配置, Rsa配置等
-    - exception 项目统一异常的处理
-    - utils 系统通用工具类
-- system 系统核心模块（系统启动入口）
-	- config 配置跨域与静态资源, 与数据权限
-	    - thread 线程池相关
-	- modules 系统相关模块(登录授权, 系统监控, 定时任务, 运维管理等)
-- logging 系统日志模块
-- tools 系统第三方工具模块
-- generator 系统代码生成模块
-```
-
-### 主要技术栈
-
-### 后端技术栈
-
-- 开发框架: Spring Boot 2.3
-- 微服务框架: Spring Cloud Hoxton.SR9
-- 安全框架: Spring Security + Spring OAuth 2.0
-- 任务调度: Quartz
-- 持久层框架: MyBatis Plus
-- 数据库连接池: Hikaricp
-- 服务注册与发现: Spring Cloud Config
-- 客户端负载均衡: Ribbon
-- 熔断组件: Hystrix
-- 网关组件: Spring Cloud Gateway
-- 消息队列: Rabbitmq
-- 缓存: Redis
-- 日志管理: Logback
-- 运行容器: Undertow
-- 工作流: Flowable 6.5.0
-
-### 前端技术栈
-
-- JS框架: Vue, nodejs
-- CSS框架: sass
-- 组件库: ElementUI
-- 打包构建工具: Webpack
-
-
-
 ### 部署方式
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/226297187-d36d6ebf-9cdc-4e1a-81bb-860af018d14e.png">
@@ -393,17 +360,26 @@
 > 数据库版本为 **mysql5.7** 及以上版本
 ### 1、`studio`数据库初始化
 >
-> 1.1 source install/16gmaster/studio/studio.sql
-> 1.2 source install/16gmaster/studio/studio-v0.3.6.sql
+> 1.1 source install/sql/studio.sql
+> 1.2 source install/sql/studio-v0.x.x.sql
 
 ### 2、修改 **config** 配置中心
 
-> **config** 文件夹下的配置文件，修改 **redis**，**mysql** 和 **rabbitmq** 的配置信息
+> **config** 文件夹下的配置文件, 修改 **redis**, **mysql** 和 **rabbitmq** 的配置信息
 >
 ### 3、项目根目录下执行
+```
+1、缺失aspose-words,要手动安装到本地仓库
+2、cd alldata/studio/common
+3、安装命令：windows使用git bash执行, mac直接执行以下命令
+4、mvn install:install-file -Dfile=aspose-words-20.3.jar -DgroupId=com.aspose -DartifactId=aspose-words -Dversion=20.3 -Dpackaging=jar
+5、安装成功重新刷新依赖,重新打包
+```
+> cd alldata/studio/common
+> mvn install:install-file -Dfile=/alldata/studio/common/aspose-words-20.3.jar -DgroupId=com.aspose -DartifactId=aspose-words -Dversion=20.3 -Dpackaging=jar
 > mvn clean install -DskipTests && mvn clean package -DskipTests
 >
-> 获取安装包build/studio-release-0.3.x.tar.gz
+> 获取安装包build/studio-release-0.4.x.tar.gz
 >
 > 上传服务器解压
 >
@@ -451,7 +427,7 @@
 
 > npm run build:prod [生产]
 >
-> 生产环境启动前端ui项目，需要[配置nginx]
+> 生产环境启动前端ui项目, 需要[配置nginx]
 ```markdown
 # For more information on configuration, see:
 #   * Official English Documentation: http://nginx.org/en/docs/
@@ -518,6 +494,24 @@ log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
 > curl http://localhost:8013
 >
 > 用户名：admin 密码：123456
+
+## 数据集成配置教程
+
+> 先找到用户管理-菜单管理, 新增【数据集成】目录
+>
+> 新增【数据集成】下面的菜单, 菜单各项按如下配置输入, 之后进入角色管理
+>
+> 配置admin账号的目录数据权限, 选中刚才新增的数据集成目录及里面的菜单, 刷新或重新登录即可访问【数据集成】
+
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/9457212/233446739-41ea4501-bb09-4eb2-86de-21c168784564.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/9457212/233446763-cbb15105-b209-4b8f-b3f2-c41b5a607dd9.png">
+<br/>
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/9457212/233447516-c952efd0-f8e2-4181-8608-1f513f9c0e93.png">
+<br/>
 
 ## Antlr4 SQL POC
 
@@ -1713,23 +1707,19 @@ void testCreateDatabase() {
 | Component                                                                       | Description                                                    | Important Composition       |
 |---------------------------------------------------------------------------------|----------------------------------------------------------------|-----------------------------|
 | [**ai**](https://github.com/alldatacenter/alldata/tree/master/ai)               | AI STUDIO FOR ALL DATA PLATFORM artificial intelligence engine | 人工智能引擎                      |
-| [**assembly**](https://github.com/alldatacenter/alldata/tree/master/assembly)   | WHOLE PACKAGE BUILD FOR ALL DATA PLATFORM assembly engine      | 整包构建引擎                      |
-| [**cluster**](https://github.com/alldatacenter/alldata/tree/master/cluster)     | DATA SRE FOR ALL DATA PLATFORM OLAP query engine               | 智能大数据运维引擎                   |
-| [**crawlab**](https://github.com/alldatacenter/alldata/tree/master/crawlab)     | CRAWLER PLATFORM FOR ALL DATA PLATFORM commerce engine         | 爬虫引擎系统                      |
-| [**document**](https://github.com/alldatacenter/alldata/tree/master/document)   | DOCUMENT FOR ALL DATA PLATFORM OLAP query engine               | 官方文档                        |
 | [**dts**](https://github.com/alldatacenter/alldata/tree/master/dts)             | DTS FOR ALL DATA PLATFORM DATA DTS engine                      | 数据集成引擎                      |
-| [**factory**](https://github.com/alldatacenter/alldata/tree/master/factory)         | FACTORY FOR ALL DATA PLATFORM DATA DTS engine                  | 数据工厂引擎                      |
 | [**fs**](https://github.com/alldatacenter/alldata/tree/master/fs)               | DATA STORAGE FOR ALL DATA PLATFORM DATA STORAGE engine         | 大数据存储引擎                     |
 | [**govern**](https://github.com/alldatacenter/alldata/tree/master/govern)       | DATA GOVERN FOR ALL DATA PLATFORM Data Governance Engine       | 数据治理引擎                      |
 | [**iot**](https://github.com/alldatacenter/alldata/tree/master/iot)             | IOT FOR ALL DATA PLATFORM Data Governance Engine               | 云原生IOT开发框架                  |
 | [**k8s**](https://github.com/alldatacenter/alldata/tree/master/k8s)               | Koordinator FOR ALL DATA PLATFORM Data Task Engine         | 知识图谱引擎                      |
 | [**kg**](https://github.com/alldatacenter/alldata/tree/master/kg)               | KNOWLEDGE GRAPH FOR ALL DATA PLATFORM Data Task Engine         | 知识图谱引擎                      |
 | [**lake**](https://github.com/alldatacenter/alldata/tree/master/lake) | LAKEHOUSE FOR ALL DATA PLATFORM ONE LAKE engine                 | 数据湖引擎                       |
-| [**market**](https://github.com/alldatacenter/alldata/tree/master/market)       | MARKET FOR ALL DATA PLATFORM MARKET engine                     | 数据实验场引擎                     |
 | [**olap**](https://github.com/alldatacenter/alldata/tree/master/olap)           | OLAP FOR ALL DATA PLATFORM OLAP query engine                   | 混合OLAP查询引擎                  |
+| [**shuffle**](https://github.com/alldatacenter/alldata/tree/master/shuffle)         | SHUFFLE FOR ALL DATA PLATFORM DATA SHUFFLE engine                  | Shuffule引擎                      |
+| [**studio**](https://github.com/alldatacenter/alldata/tree/master/studio)         | STUDIO FOR ALL DATA PLATFORM DATA STUDIO engine                  | 数据工厂引擎                      |
 | [**trade**](https://github.com/alldatacenter/alldata/tree/master/trade)         | TRADE FOR ALL DATA PLATFORM TRADE Engine                       | TRADE引擎                     |
 | [**wiki**](https://github.com/alldatacenter/alldata/tree/master/wiki)           | WIKI FOR ALL DATA PLATFORM WIKI Engine                         | AllData知识库                  |
-| [**alldata**](https://github.com/alldatacenter/alldata)                         | AllData社区项目通过二开大数据生态组件, 以及大数据采集, 大数据存储, 大数据计算, 大数据开发来建设一站式细分领域数字化解决方案    | Github一站式细分领域AllData数字化解决方案社区项目 |
+| [**alldata**](https://github.com/alldatacenter/all-in-data)                         | AllData社区项目通过二开大数据生态组件, 以及大数据采集, 大数据存储, 大数据计算, 大数据开发来建设一站式细分领域数字化解决方案    | Github一站式细分领域AllData数字化解决方案社区项目 |
 
 
 ## AllData社区商业计划图
@@ -1883,88 +1873,3 @@ void testCreateDatabase() {
 ## Community
 
 > 联系作者: https://docs.qq.com/doc/DVFZ1RFhGYkJRSGxN
-
-### 23年Github开源AllData进群须知
-```markdown
-【腾讯文档】23年Github开源AllData进群须知
-https://docs.qq.com/doc/DVGdoUE5RS3V6ZHl5
-```
-
-### 23年AllData问题记录-QA文档
-```markdown
-【腾讯文档】23年AllData问题记录-QA文档
-https://docs.qq.com/sheet/DVGpSSmh4YlhMQ3Bi?tab=BB08J2
-```
-
-## AllData募捐行动【可选】
-```markdown
-目的：为了招募更多工程师参与开发开源项目工作
-服务器运维需要，项目投资，项目调研费用，发起募捐行动
-```
-
-### AllData支出明细
-```markdown
-【腾讯文档】AllData团队支出明细
-https://docs.qq.com/sheet/DVFZKbWtGQlZqcU1W?tab=BB08J2
-```
-
-### 服务器捐赠记录
-```markdown
-【腾讯文档】AllData社区成员捐赠明细
-https://docs.qq.com/sheet/DVGJHcm1Td0hibmVq?tab=BB08J2
-```
-
-
-### 作者AllDataDC收款码
-> AllData募捐活动收款码 https://docs.qq.com/doc/DVE9HdG56Z3RQaWxH
-
-### 普通会员【1年有效】
-```markdown
-加入条件：捐赠AllData团队100人民币【需要扫码支付】AllData募捐活动收款码 https://docs.qq.com/doc/DVE9HdG56Z3RQaWxH
-1、邀请到普通会员群，获得VIP账号，可以新创建管理员账号【需要申请】
-2、获得AllData架构师、负责人1次技术交流30分钟的面谈机会【线上会议】1v1腾讯线上会议
-3、7个自然日内无条件可退款80%【退款联系作者AllDataDC】
-```
-
-
-### 高级会员【1年有效】
-```markdown
-加入条件：捐赠AllData团队800人民币【需要扫码支付】AllData募捐活动收款码 https://docs.qq.com/doc/DVE9HdG56Z3RQaWxH
-1、获取VIP账号，邀请到高级会员群，可以新创建管理员账号【需要申请】
-2、加入AllData客户群，获取最新开发规划和内部资料【需要申请】
-3、每月1次AllData问题答疑，技术咨询【60分钟】群聊线上腾讯会议
-4、支持1V1远程辅导安装部署AllData全流程
-5、7个自然日内无条件可退款80% 【退款联系作者AllDataDC】
-```
-
-
-### 至尊会员【1年有效】
-```markdown
-加入条件：捐赠AllData团队1500人民币【需要扫码支付】AllData募捐活动收款码 https://docs.qq.com/doc/DVE9HdG56Z3RQaWxH
-1、获取VIP账号，邀请到至尊会员群，可以新创建管理员账号【需要申请】
-2、加入AllData客户群，获取最新开发规划和内部资料【需要申请】
-3、每月1次AllData问题答疑，技术咨询【60分钟】群聊线上腾讯会议
-4、支持1V1远程辅导安装部署AllData全流程
-5、每月1次参与内部至尊会员腾讯会议【30分钟】1V1答疑
-6、7个自然日内无条件可退款80%【退款联系作者AllDataDC】
-```
-
-
-
-### 终身会员【3年有效】
-```markdown
-加入条件：捐赠AllData团队5000人民币【需要扫码支付】AllData募捐活动收款码 https://docs.qq.com/doc/DVE9HdG56Z3RQaWxH
-1、获取VIP账号，可以新创建管理员账号【需要申请】
-2、加入AllData客户群，获取最新开发规划和内部资料【需要申请】
-3、每月1次AllData问题答疑，技术咨询【60分钟】群聊线上腾讯会议
-4、支持1V1远程辅导安装部署AllData全流程
-5、每月1次参与内部终身会员腾讯会议【30分钟】1V1答疑
-6、获得最新商业版功能【不对外开源】
-7、7个自然日内无条件可退款80% 【退款联系作者AllDataDC】
-```
-
-### AllData游客【社区免费共享】
-```markdown
-体验版地址：
-http://43.138.157.47/dashboard 游客账号：test/123456
-```
