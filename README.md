@@ -1,13 +1,82 @@
 # 可定义数据中台
 
-## [官方文档](https://alldata.readthedocs.io/) ｜ [安装文档](https://github.com/alldatacenter/alldata/blob/master/install.md) ｜ [Community](#community)
+## [官方文档](https://alldata.readthedocs.io/) ｜ [安装文档](https://github.com/alldatacenter/alldata/blob/master/install.md)
 
+## 安装教程
+> https://github.com/alldatacenter/alldata/blob/master/install.md
 
-## Stargazers over time
+## 教程文档
+> https://github.com/alldatacenter/alldata/blob/master/studio/modules/service-data-dts-parent/DTS_QuickStart.md
+> https://github.com/alldatacenter/alldata/blob/master/bi_quickstart.md
+
+## github
 
 [![Stargazers over time](https://starchart.cc/alldatacenter/alldata.svg)](https://starchart.cc/alldatacenter/alldata)
 
 <br/>
+
+## 功能列表
+
+- 平台基础设置
+    - 系统管理
+        - 岗位管理: 配置系统用户所属担任职务
+        - 部门管理: 配置系统组织机构, 树结构展现支持数据权限
+        - 菜单管理: 配置系统菜单, 操作权限, 按钮权限标识等
+        - 角色管理: 角色菜单权限分配, 设置角色按机构进行数据范围权限划分
+        - 用户管理: 用户是系统操作者, 该功能主要完成系统用户配置
+        - 参数管理: 对系统动态配置常用参数
+        - 字典管理: 对系统中经常使用的一些较为固定的数据进行维护
+    - 系统监控
+        - 登录日志: 系统登录日志记录查询
+        - 操作日志: 系统正常操作日志记录和查询, 系统异常信息日志记录和查询
+    - 任务调度
+        - 任务管理: 在线（添加, 修改, 删除)任务调度
+        - 日志管理: 任务调度执行结果日志
+- 元数据管理
+    - 数据源: 数据源连接信息管理, 可生成数据库文档
+    - 元数据: 数据库表的元数据信息管理
+    - 数据授权: 设置元数据信息权限划分
+    - 变更记录: 元数据信息变更记录信息管理
+    - 数据检索: 数据源, 数据表, 元数据等信息查询
+    - 数据地图: 元数据的隶属数据表, 数据库的图形展示
+    - SQL工作台: 在线执行查询sql
+- 数据标准管理
+    - 标准字典: 国标数据维护
+    - 对照表: 本地数据中需要对照标准的数据维护
+    - 字典对照: 本地数据与国标数据的对照关系
+    - 对照统计: 本地数据与国标数据的对照结果统计分析
+- 数据质量管理
+    - 规则配置: 数据质量规则配置
+    - 问题统计: 数据质量规则统计
+    - 质量报告: 数据质量结果统计分析
+    - 定时任务: 数据质量定时任务
+    - 任务日志: 数据质量定时任务日志
+- 主数据管理
+    - 数据模型: 主数据数据模型维护
+    - 数据管理: 主数据数据管理
+- 数据集市管理
+    - 数据服务: 动态开发api数据服务, 可生成数据服务文档
+    - 数据脱敏: api数据服务返回结果动态脱敏
+    - 接口日志: api数据服务调用日志
+    - 服务集成: 三方数据服务集成管理
+    - 服务日志: 三方数据服务集成调用日志
+- 可视化管理
+    - 数据集: 基于sql的查询结果维护
+    - 图表配置: 动态echarts图表配置, 支持多维表格, 折线, 柱状, 饼图, 雷达, 散点等多种图表
+    - 看板配置: 拖拽式添加图表组件, 调整位置, 大小
+    - 酷屏配置: 拖拽式添加图表组件, 调整背景图, 颜色, 位置, 大小
+- 流程管理
+    - 流程定义: 流程定义管理
+    - 流程实例
+        - 运行中的流程: 运行中的流程实例管理
+        - 我发起的流程: 我发起的流程实例管理
+        - 我参与的流程: 我参与的流程实例管理
+    - 流程任务
+        - 待办任务: 待办任务管理
+        - 已办任务: 已办任务管理
+    - 业务配置: 配置业务系统与流程的相关属性
+
+
 <br/>
 <a href="https://github.com/alldatacenter/github-readme-stats">
   <img width="1215" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=alldatacenter&repo=alldata" />
@@ -17,74 +86,6 @@
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/204965509-fc13050b-ebe8-4bd5-8882-69e1af0a8367.png">
 <br/>
-
-## AllData社区商业计划图
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188898972-d78bcbb6-eb30-420d-b5e1-7168aa340555.png">
-<br/>
-
-## AllData社区项目业务流程图
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188899006-aba25703-f8fa-42b6-b59f-2573ee2b27fc.png">
-<br/>
-
-## AllData社区项目树状图
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188898939-bfba6cbc-c7b0-40c4-becd-27152d5daa90.png">
-<br/>
-
-## 全站式AllData产品路线图
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/179927878-ff9c487e-0d30-49d5-bc88-6482646d90a8.png">
-<br/>
-
-
-## AllData社区开发规划
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188899033-948583a4-841b-4233-ad61-bbc45c936ca1.png">
-<br/>
-
-## 从0到1建设大数据解决方案
-
-> 从0到1建设大数据解决方案是一个相对比较宏观的过程, 需要考虑从业务需求分析, 数据采集, 数据处理, 数据存储, 数据查询分析到数据可视化展示等多个环节,
->
-> 以下是一个简单的大数据解决方案建设方法论:
->
-> 需求分析: 首先需要明确业务需求, 包括数据源, 数据量, 数据类型, 数据质量等等, 可以与业务人员进行沟通, 制定出明确的需求和目标, 确定解决方案的规模和数据的范围
->
-> 数据采集: 根据需求分析结果, 确定数据来源和采集方式, 可以使用采集工具或者开发自定义采集程序, 采集的数据需要进行清洗和过滤, 确保数据的准确性和完整性
->
-> 数据处理: 数据采集后需要进行清洗, 整合, 加工等处理, 以便后续的存储和分析, 数据处理可以使用数据流处理或者批处理等方式
->
-> 数据存储: 对于大数据解决方案, 数据存储是一个非常重要的环节, 需要选择合适的存储方案, 包括分布式存储, 列式存储, 内存数据库等, 可以根据数据量和查询分析方式等要素进行选择
->
-> 数据查询分析: 建立数据查询和分析体系, 需要考虑数据查询和分析的灵活性和效率, 可以使用数据查询引擎和分析工具, 如Hadoop, Spark, Hive, Presto, Superset等
->
-> 数据可视化展示: 通过数据可视化展示方式, 使数据分析结果直观, 易于理解, 可以使用开源的可视化工具, 如Tableau, Power BI, Echarts等
->
-> 安全与隐私: 对于大数据解决方案, 安全和隐私是非常重要的, 需要采取一系列的安全措施, 包括数据加密, 访问控制, 数据备份等, 以保障数据的安全性和隐私性
->
-> 评估和优化: 在建设过程中需要不断评估和优化解决方案, 调整方案架构和技术选型, 以提高解决方案的性能和效率, 满足业务需求和用户期望
->
-> 以上是一个简单的从0到1建设大数据解决方案的方法论, 需要根据实际情况进行具体的调整和优化
-
-## 数字化转型
->
-> 数字化转型是指将传统企业在信息化, 网络化, 智能化, 数据化等技术的支撑下, 对业务, 组织, 文化, 价值创造, 利益分配等方面进行全面的革新和升级,
->
-> 以适应市场, 技术, 用户等环境的变化数字化转型的目标是实现企业从传统生产经营方式向数字化经营模式的转变, 提高企业的效率, 创新能力, 市场竞争力和盈利能力
->
-> 数字化转型方法论可以概括为以下几个方面:
->
-> 确定数字化转型的战略目标和方向, 明确数字化转型的意义和价值, 为数字化转型的实施提供方向和支撑
->
-> 分析业务过程, 识别业务痛点和机会, 确定数字化转型的重点领域和项目, 以提高效率, 创新能力和用户体验为导向
->
-> 优化组织结构和流程, 建立数字化组织架构和工作流程, 激发组织创新和员工动力, 提高业务效率和创新能力
->
-> 采用先进的信息技术和数据技术, 例如云计算, 大数据, 人工智能, 物联网等, 为数字化转型提供技术支持
->
-> 建立数字化文化, 通过数字化营销, 数字化服务, 数字化协同等方式, 提升品牌价值, 用户满意度和市场影响力
->
-> 实施数字化监管, 建立数字化安全, 合规和风险控制体系, 确保数字化转型的合法性, 合规性和可持续性
->
-> 数字化转型是一个复杂的过程, 需要综合运用战略, 组织, 技术, 文化, 监管等多方面的手段和方法, 才能取得成功
 
 
 ## 可定义数据中台
@@ -236,39 +237,6 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/234817116-dc4bca8e-e8ac-4efa-a2a0-d91ce9eb56e8.png">
 <br/>
 
-## 数据平台
-<br/>
-<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/18fdc008-10c8-4ef8-a7b7-5d170b2532eb">
-<br/>
-
-<br/>
-<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/cf92dc3c-bcb7-49d4-8f9e-f099808c3ba8">
-<br/>
-
-<br/>
-<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/f2341f0c-8205-4fb6-940e-954f78544397">
-<br/>
-
-<br/>
-<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/1ea1f9a0-ab7a-4992-b604-daf046352dae">
-<br/>
-
-<br/>
-<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/f40c794a-6498-444d-bcc6-6b1def7f263b">
-<br/>
-
-<br/>
-<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/48d1bc42-6bf9-4c0a-add0-f53cefff8cf1">
-<br/>
-
-<br/>
-<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/a2820a29-52bd-42da-9395-63c68c279336">
-<br/>
-
-<br/>
-<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/07220b62-4757-4988-a906-cb4e0cc1bfa4">
-<br/>
-
 ## BI报表
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/227458114-48ab43b4-437d-4b7e-9eb3-d49b1da1b762.png">
@@ -337,6 +305,28 @@
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/210299541-b9f4d344-30ba-4fc9-a083-390129f7da1e.png">
 <br/>
 
+## AllData社区商业计划图
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188898972-d78bcbb6-eb30-420d-b5e1-7168aa340555.png">
+<br/>
+
+## AllData社区项目业务流程图
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188899006-aba25703-f8fa-42b6-b59f-2573ee2b27fc.png">
+<br/>
+
+## AllData社区项目树状图
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188898939-bfba6cbc-c7b0-40c4-becd-27152d5daa90.png">
+<br/>
+
+## 全站式AllData产品路线图
+<br/>
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/179927878-ff9c487e-0d30-49d5-bc88-6482646d90a8.png">
+<br/>
+
+
+## AllData社区开发规划
+<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/188899033-948583a4-841b-4233-ad61-bbc45c936ca1.png">
+<br/>
+
 ### 数据中台建设方法论
 
 > 确定数据中台的目标和范围: 在开始构建数据中台之前, 需要明确数据中台的目标和范围, 例如数据中台的主要功能, 应用场景, 覆盖范围等
@@ -359,83 +349,36 @@
 >
 > 同时, 数据中台建设还需要依赖于跨部门的协同和配合, 以确保数据的一致性和可用性
 
-### 功能一览
 
-- 平台基础设置
-    - 系统管理
-        - 岗位管理: 配置系统用户所属担任职务
-        - 部门管理: 配置系统组织机构, 树结构展现支持数据权限
-        - 菜单管理: 配置系统菜单, 操作权限, 按钮权限标识等
-        - 角色管理: 角色菜单权限分配, 设置角色按机构进行数据范围权限划分
-        - 用户管理: 用户是系统操作者, 该功能主要完成系统用户配置
-        - 参数管理: 对系统动态配置常用参数
-        - 字典管理: 对系统中经常使用的一些较为固定的数据进行维护
-    - 系统监控
-        - 登录日志: 系统登录日志记录查询
-        - 操作日志: 系统正常操作日志记录和查询, 系统异常信息日志记录和查询
-    - 任务调度
-        - 任务管理: 在线（添加, 修改, 删除)任务调度
-        - 日志管理: 任务调度执行结果日志
-- 元数据管理
-    - 数据源: 数据源连接信息管理, 可生成数据库文档
-    - 元数据: 数据库表的元数据信息管理
-    - 数据授权: 设置元数据信息权限划分
-    - 变更记录: 元数据信息变更记录信息管理
-    - 数据检索: 数据源, 数据表, 元数据等信息查询
-    - 数据地图: 元数据的隶属数据表, 数据库的图形展示
-    - SQL工作台: 在线执行查询sql
-- 数据标准管理
-    - 标准字典: 国标数据维护
-    - 对照表: 本地数据中需要对照标准的数据维护
-    - 字典对照: 本地数据与国标数据的对照关系
-    - 对照统计: 本地数据与国标数据的对照结果统计分析
-- 数据质量管理
-    - 规则配置: 数据质量规则配置
-    - 问题统计: 数据质量规则统计
-    - 质量报告: 数据质量结果统计分析
-    - 定时任务: 数据质量定时任务
-    - 任务日志: 数据质量定时任务日志
-- 主数据管理
-    - 数据模型: 主数据数据模型维护
-    - 数据管理: 主数据数据管理
-- 数据集市管理
-    - 数据服务: 动态开发api数据服务, 可生成数据服务文档
-    - 数据脱敏: api数据服务返回结果动态脱敏
-    - 接口日志: api数据服务调用日志
-    - 服务集成: 三方数据服务集成管理
-    - 服务日志: 三方数据服务集成调用日志
-- 可视化管理
-    - 数据集: 基于sql的查询结果维护
-    - 图表配置: 动态echarts图表配置, 支持多维表格, 折线, 柱状, 饼图, 雷达, 散点等多种图表
-    - 看板配置: 拖拽式添加图表组件, 调整位置, 大小
-    - 酷屏配置: 拖拽式添加图表组件, 调整背景图, 颜色, 位置, 大小
-- 流程管理
-    - 流程定义: 流程定义管理
-    - 流程实例
-        - 运行中的流程: 运行中的流程实例管理
-        - 我发起的流程: 我发起的流程实例管理
-        - 我参与的流程: 我参与的流程实例管理
-    - 流程任务
-        - 待办任务: 待办任务管理
-        - 已办任务: 已办任务管理
-    - 业务配置: 配置业务系统与流程的相关属性
+## 数字化转型
+>
+> 数字化转型是指将传统企业在信息化, 网络化, 智能化, 数据化等技术的支撑下, 对业务, 组织, 文化, 价值创造, 利益分配等方面进行全面的革新和升级,
+>
+> 以适应市场, 技术, 用户等环境的变化数字化转型的目标是实现企业从传统生产经营方式向数字化经营模式的转变, 提高企业的效率, 创新能力, 市场竞争力和盈利能力
+>
+> 数字化转型方法论可以概括为以下几个方面:
+>
+> 确定数字化转型的战略目标和方向, 明确数字化转型的意义和价值, 为数字化转型的实施提供方向和支撑
+>
+> 分析业务过程, 识别业务痛点和机会, 确定数字化转型的重点领域和项目, 以提高效率, 创新能力和用户体验为导向
+>
+> 优化组织结构和流程, 建立数字化组织架构和工作流程, 激发组织创新和员工动力, 提高业务效率和创新能力
+>
+> 采用先进的信息技术和数据技术, 例如云计算, 大数据, 人工智能, 物联网等, 为数字化转型提供技术支持
+>
+> 建立数字化文化, 通过数字化营销, 数字化服务, 数字化协同等方式, 提升品牌价值, 用户满意度和市场影响力
+>
+> 实施数字化监管, 建立数字化安全, 合规和风险控制体系, 确保数字化转型的合法性, 合规性和可持续性
+>
+> 数字化转型是一个复杂的过程, 需要综合运用战略, 组织, 技术, 文化, 监管等多方面的手段和方法, 才能取得成功
 
- ## Architecture
+## Architecture
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171598215-0914f665-9950-476c-97ff-e7e07aa10eaf.png">
 <br/>
 <img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/171598333-d14ff53f-3af3-481c-9f60-4f891a535b5c.png">
 <br/>
 
-| Component                                                                       | Description                                                    | Important Composition       |
-|---------------------------------------------------------------------------------|----------------------------------------------------------------|-----------------------------|
-| [**mlops**](https://github.com/alldatacenter/alldata/tree/master/mlops)               | MLOPS FOR ALL DATA PLATFORM artificial intelligence engine | 机器学习平台引擎                      |
-| [**chatgpt**](https://github.com/alldatacenter/alldata/tree/master/gpt)               | CHATGPT FOR ALL DATA PLATFORM DATA STORAGE engine         | ChatGPT引擎                     |
-| [**studio**](https://github.com/alldatacenter/alldata/tree/master/studio)         | STUDIO FOR ALL DATA PLATFORM DATA STUDIO engine                  | 数据工厂引擎                      |
-| [**wiki**](https://github.com/alldatacenter/alldata/tree/master/wiki)           | WIKI FOR ALL DATA PLATFORM WIKI Engine                         | AllData知识库                  |
-| [**alldata**](https://github.com/alldatacenter/alldata)                         | AllData大数据产品是基于大数据和人工智能研发的可定义数据中台。 |
-
-
 ## Community
 
-> 联系作者: https://docs.qq.com/doc/DVHlkSEtvVXVCdEFo
+> 加入微信群: https://docs.qq.com/doc/DVHlkSEtvVXVCdEFo
