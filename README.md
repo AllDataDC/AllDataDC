@@ -4,11 +4,11 @@
 
 ## 一、会员商业版
 
-> 体验版地址：Test账号只有数据质量，体验更多功能可选参加会员通道
+> 会员商业版线上环境地址：线上环境只对会员通道开放
 >
 > 成为会员：享受会员权益，详情查看Github主页文档
 >
-> 地址：http://122.51.43.143/dashboard
+> 地址：http://122.51.43.143:5173/ui_moat
 >
 > 账号：test/123456
 
@@ -48,8 +48,6 @@
 
 ### 6.1 AllData会员商业版通道
 
-#### 一、AllData会员商业版社区群
-
 > 1.1 微信社区交流群
 > 
 ![image](https://github.com/alldatacenter/alldata/assets/20246692/610da0a1-ee19-4173-b6ab-7f96aaf808f1)
@@ -75,20 +73,9 @@
 ![image](https://github.com/alldatacenter/alldata/assets/20246692/7d4312a3-1904-404d-a0ed-f36b14e7c02d)
 
 
-#### 二、AllData会员商业版通道
+### 6.2 AllData会员商业版通道
 
-> 2.1 会员商业版体验环境
-> 
-http://122.51.4### 9.143/dashboard
-
-
-> 2.2 游客账号(只有数据质量查看)
->
-> 账号密码：test/123456
->
-> 只有数据质量提供对外访问，购买VIP开通会员账号，同时享受较多权益。
-
-> 2.3 全新会员商业版价格权益
+> 全新会员商业版价格权益
 >
 > 访问新版会员价格可以私聊商业版小助手获取商业版海报信息
 
@@ -324,6 +311,17 @@ http://122.51.4### 9.143/dashboard
 ### 9.17 数据平台(K8S)
 
 ![image](https://github.com/alldatacenter/alldata/assets/20246692/b5c75229-f074-4d4b-ab1c-a5e16091efc6)
+
+<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/eddd3086-b4e8-480d-8fff-ccdeedf8f12d">
+
+<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/41b1fb5f-de34-4488-812f-8b217baaf54b">
+
+<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/706345d8-a7d7-459f-b125-912bdc4cec03">
+
+<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/ab048563-22a0-43d8-91d1-f6cf8f45781c">
+
+<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/91065efb-c6c2-4267-8886-59761d2dc555">
+
 
 ### 9.18 新版BI平台(Datart)
 
